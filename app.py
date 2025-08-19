@@ -6,5 +6,11 @@ app = Flask(__name__)
 def home():
     return "Hello, Flask!"
 
+
+@app.route("/hau")
+
+def how_are_you():
+    return f"How are you"
+
 if __name__ == '__main__':
     app.run(debug=True)
