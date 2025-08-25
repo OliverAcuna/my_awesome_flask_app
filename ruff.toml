@@ -1,9 +1,7 @@
 target-version = "py310"
-
 line-length = 88
-
-select = ["E", "F"]
-
-ignore = ["E501"]
-
 exclude = [".venv", "build", "__pycache__"]
+
+[lint]
+select = ["E", "F"]
+ignore = ["E501"]
